@@ -1,0 +1,44 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+            width: 1170px;
+            margin: auto;
+            border: 5px solid red;
+            display: flex;
+            flex-direction: row;
+            /* flex-direction: row-reverse; */
+            
+            /* 
+            justify-content property apply only flex-direction:row/row-reverse
+            */
+
+            justify-content: flex-start;
+            /* justify-content: center; */
+            /* justify-content: flex-end; */
+            /* justify-content: space-between; */
+            /* justify-content: space-around; */
+
+        }
+        .item1{
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">Item 1</div>
+        <div class="item1">Item 2</div>
+        <div class="item1">Item 3</div>
+        <div class="item1">Item 4</div>
+    </div>
+</body>
+</html>

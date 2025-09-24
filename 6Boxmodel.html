@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>Boxmodel</title>
+    <style>
+        #parent {
+            background-color: red;
+            font-size: 10px;
+            width: 500px;
+            height: 600px;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #child {
+            background-color: blueviolet;
+            border: 5px solid yellow;
+            margin-top: 30px;
+            width: 100%;
+            height: 50px;
+            position: relative;
+            top: 50px;
+            /* box-sizing: border-box; */
+            /* The width and height properties(min/max properties) includes content , padding and border */
+
+            box-sizing: content-box;
+            /* Default: The width and height properties(min/max properties) includes only the  content.Padding and border are not included  */
+        }
+    </style>
+</head>
+
+<body>
+    <div id="parent">
+        <div id="child">This is Child Element</div>
+    </div>
+</body>
+
+</html>

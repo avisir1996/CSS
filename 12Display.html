@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <!-- 
+The display property specifies the display behavior (the type of rendering box) of an element.
+
+none:The element is completely removed
+
+inline:Displays an element as an inline element (like <span>). 
+Any height and width properties will have no effect
+
+block:Displays an element as a block element (like <p>). 
+It starts on a new line, and takes up the whole width
+
+inline-block:Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can apply height and width values -->
+    <title>Display</title>
+    <style>
+        p{
+            font-size: 25px;
+            color: red;
+        }
+        .ex1{
+            display: none;
+        }
+        .ex2{
+            display: inline;
+            height: 50px;
+        }
+        .ex3{
+            display: block;
+            height: 50px;
+            background-color: yellow;
+        }
+        .ex4{
+            display: inline-block;
+            height: 50px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis unde deserunt, aspernatur rerum ducimus expedita <p class="ex1">Hello World</p>
+        eaque necessitatibus quibusdam quaerat quam? Reprehenderit, aliquid laudantium laboriosam odit assumenda
+        cupiditate enim similique dolores.
+    </div>
+    <hr>
+
+
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis unde deserunt, aspernatur rerum ducimus expedita <p class="ex2">Hello World</p>
+        eaque necessitatibus quibusdam quaerat quam? Reprehenderit, aliquid laudantium laboriosam odit assumenda
+        cupiditate enim similique dolores.
+    </div>
+    <hr>
+
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis unde deserunt, aspernatur rerum ducimus expedita <p class="ex3">Hello World</p>
+        eaque necessitatibus quibusdam quaerat quam? Reprehenderit, aliquid laudantium laboriosam odit assumenda
+        cupiditate enim similique dolores.
+    </div>
+    <hr>
+
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis unde deserunt, aspernatur rerum ducimus expedita <p class="ex4">Hello World</p>
+        eaque necessitatibus quibusdam quaerat quam? Reprehenderit, aliquid laudantium laboriosam odit assumenda
+        cupiditate enim similique dolores.
+    </div>
+
+</body>
+
+</html>

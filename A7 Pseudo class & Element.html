@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <title>pseudo class & Element</title>
+    <!-- ::Element
+    :class -->
+    <style>
+        .p1::first-line {
+            background-color: red;
+        }
+
+        .p2::first-letter {
+            color: green;
+        }
+
+        /* marker apply only on list */
+        ::marker {
+            font-size: 40px;
+        }
+
+        a:link {
+            background-color: green;
+        }
+
+        a:active {
+            color: red;
+        }
+
+        p::selection {
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="p1">
+        This is example 1<br>
+        This is example 2
+    </p>
+
+    <p class="p2">
+        This is example 1<br>
+        This is example 2
+    </p>
+    <ul>
+        <li>Maggie</li>
+        <li>Tea</li>
+        <li>Coffee</li>
+    </ul>
+
+    <ol>
+        <li>Maggie</li>
+        <li>Tea</li>
+        <li>Coffee</li>
+    </ol>
+
+    <a href="A1 Gradient.html" target="_blank">click</a>
+</body>
+
+</html>

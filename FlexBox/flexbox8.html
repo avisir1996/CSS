@@ -1,0 +1,34 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+            width: 1170px;
+            height: 500px;
+            margin: auto;
+            border: 5px solid red;
+            display: flex;
+            flex-direction: row;
+        }
+        .item1{
+            padding: 10px;
+            margin: 10px;
+            width: 500px;
+            border: 1px solid green;
+            background-color: goldenrod;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1" style="align-self: flex-start;">Item 1</div>
+        <div class="item1" style="align-self: center;flex-shrink: 0;">Item 2</div>
+        <div class="item1" style="align-self:flex-end;">Item 3</div>
+    </div>
+</body>
+</html>
